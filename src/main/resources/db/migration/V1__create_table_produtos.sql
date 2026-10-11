@@ -1,0 +1,8 @@
+CREATE TABLE produtos (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    preco DECIMAL(19,2) NOT NULL,
+    estoque BOOLEAN,
+
+    PRIMARY KEY (id)
+);
